@@ -49,7 +49,7 @@
 #include "pcap_layers.h"
 
 #ifndef PCAP_SNAPLEN
-#define PCAP_SNAPLEN 1460
+#define PCAP_SNAPLEN 9000 /* add support for jumbo frames */
 #endif
 #ifndef ETHER_HDR_LEN
 #define ETHER_ADDR_LEN 6
